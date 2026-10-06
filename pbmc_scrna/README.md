@@ -67,24 +67,6 @@ pbmc_scrna/
 
 ---
 
-## Getting Started
-
-```bash
-# 1. Clone
-git clone https://github.com/kanishkkadyan/pbmc-scrna-clustering.git
-cd pbmc-scrna-clustering
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run — PBMC3k downloads automatically (~6 MB) on first run
-python main.py
-```
-
-> **Note on cluster annotation:** Leiden clustering is stochastic. If cluster IDs differ from those in the README, update the `CLUSTER_ANNOTATION` dictionary at the top of `main.py` after inspecting the marker dotplot.
-
----
-
 ## Methods
 
 ### Quality Control
